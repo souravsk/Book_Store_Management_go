@@ -13,4 +13,4 @@ func main(){
 	routes.RegisterBookStoreRoutes(r) /* then we call the this variable that is creaded by in routes dir and we are getting the values */
 	http.Handle("/", r)
 	log.Fatal(http.ListenAndServe("localhost:9010", r)) /* ListenAndServer is func that help to create server */
-}
+} 
